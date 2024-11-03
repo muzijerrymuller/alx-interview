@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
 UTF-8 Validation Module
-
 This module provides a function to validate whether a given list of integers
 represents a valid UTF-8 encoding.
 """
