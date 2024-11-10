@@ -51,7 +51,6 @@ def place_queens(
         print(solution)
         return
 
-    
     for column in range(board_size):
         if (
                 column in column_set
