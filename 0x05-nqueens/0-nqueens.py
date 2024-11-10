@@ -57,7 +57,7 @@ def place_queens(
                 or (row + column) in positive_diagonal_set 
                 or (row - column) in negative_diagonal_set
             ):
-           continue
+                continue
 
        column_set.add(column)
         positive_diagonal_set.add(row + column)
