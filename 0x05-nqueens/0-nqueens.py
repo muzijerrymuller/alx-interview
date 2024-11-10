@@ -59,7 +59,7 @@ def place_queens(
         ):
             continue
 
-       column_set.add(column)
+        column_set.add(column)
         positive_diagonal_set.add(row + column)
         negative_diagonal_set.add(row - column)
         board_state[row][column] = 1
