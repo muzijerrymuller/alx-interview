@@ -99,7 +99,7 @@ def solve_nqueens(board_size):
             positive_diagonal_set,
             negative_diagonal_set,
             board_state
-            )
+        )
 
 
 if __name__ == "__main__":
