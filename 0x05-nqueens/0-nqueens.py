@@ -52,8 +52,11 @@ def place_queens(
         return
 
     for column in range(board_size):
-        if column in column_set or (row + column) in positive_diagonal_set
-        or (row - column) in negative_diagonal_set:
+        if (
+                column in column_set
+                or (row + column) in positive_diagonal_set 
+                or (row - column) in negative_diagonal_set
+            ):
             continue
 
         column_set.add(column)
