@@ -51,19 +51,22 @@ def place_queens(
         print(solution)
         return
 
+    
     for column in range(board_size):
         if (
                 column in column_set
                 or (row + column) in positive_diagonal_set 
                 or (row - column) in negative_diagonal_set
             ):
-            continue
+           continue
 
-        column_set.add(column)
+        
+       column_set.add(column)
         positive_diagonal_set.add(row + column)
         negative_diagonal_set.add(row - column)
         board_state[row][column] = 1
 
+        
         place_queens(
                 row + 1,
                 board_size,
@@ -73,6 +76,7 @@ def place_queens(
                 board_state
             )
 
+        
         column_set.remove(column)
         positive_diagonal_set.remove(row + column)
         negative_diagonal_set.remove(row - column)
@@ -95,6 +99,7 @@ def solve_nqueens(board_size):
     negative_diagonal_set = set()
     board_state = [[0] * board_size for _ in range(board_size)]
 
+    
     place_queens(
             0,
             board_size,
