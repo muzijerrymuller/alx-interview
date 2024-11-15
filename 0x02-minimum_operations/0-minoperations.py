@@ -1,7 +1,9 @@
 #!/usr/bin/python3
-"""Module for calculating the minimum number of operations to achieve 'n' H characters.
+"""Module for calculating the minimum number of
+operations to achieve 'n' H characters.
 This module contains a function, `minOperations`, which calculates the minimum
-number of operations needed to result in exactly 'n' H characters, starting with
+number of operations needed to result in exactly
+'n' H characters, starting with
 a single character 'H'. The operations allowed are 'Copy All' and 'Paste'.
 """
 
@@ -33,7 +35,6 @@ def minOperations(n):
     # If n is less than 2, it is not possible to perform any operations
     if n < 2:
         return 0
-
     o, r = 0, 2
     
     # Find factors of n that lead to minimum operations
