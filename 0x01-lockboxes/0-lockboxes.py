@@ -3,7 +3,7 @@
 
 
 def look_next_opened_box(opened_boxes):
-    """Search for the next unlocked box and retrieve its keys.    
+    """Search for the next unlocked box and retrieve its keys. 
     Args:
         opened_boxes (dict): Dictionary representing
         opened boxes, with their keys.
