@@ -36,7 +36,6 @@ def minOperations(n):
     if n < 2:
         return 0
     o, r = 0, 2
-    
     # Find factors of n that lead to minimum operations
     while r <= n:
         # Check if n is divisible by the current root
