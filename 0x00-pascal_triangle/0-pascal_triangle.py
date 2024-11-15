@@ -1,12 +1,16 @@
 #!/usr/bin/python3
+# -*- coding: utf-8 -*-
 """
 Pascal's Triangle Generator
+
 This module provides a function `pascal_triangle` to generate Pascal's Triangle 
 up to a specified number of rows. Pascal's Triangle is a triangular array of 
 the binomial coefficients, widely used in combinatorics, algebra, and geometry.
+
 The triangle starts with a single 1 at the top, and each subsequent row is 
 constructed using the principle that each number is the sum of the two directly 
 above it. This implementation leverages mathematical formulas for efficiency.
+
 Example:
     For n = 5, the Pascal's Triangle generated would be:
     [
@@ -16,11 +20,11 @@ Example:
         [1, 3, 3, 1],
         [1, 4, 6, 4, 1]
     ]
+
 Usage:
     Call the `pascal_triangle(n)` function with a positive integer `n` to get 
     a list of lists representing the triangle.
 """
-
 
 def pascal_triangle(n):
     """
