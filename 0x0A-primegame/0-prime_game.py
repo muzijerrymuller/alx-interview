@@ -5,7 +5,7 @@ of a game played by Maria and Ben.
 The game is based on prime numbers
 and involves selecting numbers from a list
 to determine the winner. Each
-player strategically chooses numbers in a 
+player strategically chooses numbers in a
 specific sequence, aiming to
 maximize their chances of winning.
 """
